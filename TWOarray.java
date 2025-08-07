@@ -13,7 +13,7 @@ public class TWOarray {
         System.out.println(arr.length ); //no. of rows
         //input
         for(int row = 0 ; row < arr.length ; row++) {
-            for (int col = 0; col < arr[row].length; col++) {
+            for (int col = 0; col < arr[row].length; col++) {     //used in arrays
                 arr[row][col] = in.nextInt();
             }
 
@@ -28,4 +28,5 @@ public class TWOarray {
 
     }
 }
+
 }
