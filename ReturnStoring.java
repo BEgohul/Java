@@ -5,8 +5,9 @@ public class ReturnStoring {
         return a-b;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {  //main function executes first 
         int z = mymethod(908324, 9871298);
         System.out.println(z);
     }
 }
+
