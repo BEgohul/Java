@@ -7,7 +7,7 @@ public class Functions {
         Scanner in = new Scanner(System.in);
         int[] arr = new int[4];
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = Integer.parseInt(in.next());
+            arr[i] = Integer.parseInt(in.next());  //iteration
         }
             System.out.println(Arrays.toString(arr));
 
@@ -18,4 +18,5 @@ public class Functions {
             arr[0] = 99;
         }
     }
+
 
